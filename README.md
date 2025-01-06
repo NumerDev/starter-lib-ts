@@ -1,5 +1,5 @@
 <div align="center" >
-    <img width=200 src="https://github.com/user-attachments/assets/dc4087ce-6796-47ea-9f42-376fbc574444"  />
+    <img width=200 src="https://github.com/NumerDev/starter-lib-ts/blob/master/assets/pkg-logo.gif?raw=true" alt="Package logo placeholder"  />
 </div>
 
 <h1 align="center">"Start here, cry later" toolkit</h1>
