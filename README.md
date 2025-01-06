@@ -61,11 +61,11 @@
 [npm-downloads-href]: https://npmjs.com/package/@numerdev/starter-lib-ts
 [bundle-src]: https://img.shields.io/bundlephobia/minzip/@numerdev/starter-lib-ts?style=flat&colorA=080f12&colorB=cd49cd&label=minzip
 [bundle-href]: https://bundlephobia.com/result?p=/@numerdev/starter-lib-ts
-[license-src]: https://img.shields.io/github/license/@numerdev/starter-lib-ts.svg?style=flat&colorA=080f12&colorB=53b3b4
-[license-href]: https://github.com/numerdev/starter-lib-ts/LICENSE
+[license-src]: https://img.shields.io/github/license/numerdev/starter-lib-ts.svg?style=flat&colorA=080f12&colorB=53b3b4
+[license-href]: https://github.com/numerdev/starter-lib-ts/blob/master/LICENSE
 [jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-080f12?style=flat&colorA=080f12&colorB=53b3b4
 [jsdocs-href]: https://www.jsdocs.io/package/@numerdev/starter-lib-ts
 [code-style-src]: https://antfu.me/badge-code-style.svg
 [code-style-href]: https://github.com/antfu/eslint-config
-[build-src]: https://img.shields.io/github/actions/workflow/status/numerdev/starter-lib-ts/cd.yml?style=flat&colorA=080f12&colorB=cd49cd
-[build-href]: https://github.com/NumerDev/badges/actions?query=workflow%3Acd
+[build-src]: https://img.shields.io/github/actions/workflow/status/numerdev/starter-lib-ts/release.yml?style=flat&colorA=080f12&colorB=cd49cd
+[build-href]: https://github.com/numerdev/badges/actions?query=workflow%3Acd.yml
