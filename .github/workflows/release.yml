@@ -32,18 +32,20 @@ jobs:
       - run: pnpm install
       - run: pnpm run build
 
-      - name: Get release version
-        run: |
-          pnpm changeset status --output=release.json
-          echo "NEW_VERSION=$(jq -r '.releases[0].newVersion' release.json)" >> "$GITHUB_ENV"
-          rm release.json
+      # Enable this step after proper library setup
+      # 
+      # - name: Get release version
+      #   run: |
+      #     pnpm changeset status --output=release.json
+      #     echo "NEW_VERSION=$(jq -r '.releases[0].newVersion' release.json)" >> "$GITHUB_ENV"
+      #     rm release.json
 
-      - name: Create Release PR
-        uses: changesets/action@v1
-        with:
-          publish: pnpm changeset publish
-          title: Release v${{ env.NEW_VERSION }}
-          commit: 'chore(release): v${{ env.NEW_VERSION }}'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      # - name: Create Release PR
+      #   uses: changesets/action@v1
+      #   with:
+      #     publish: pnpm changeset publish
+      #     title: Release v${{ env.NEW_VERSION }}
+      #     commit: 'chore(release): v${{ env.NEW_VERSION }}'
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
