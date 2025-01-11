@@ -46,6 +46,8 @@
 - [ ] Change `starter-lib-ts` everywhere in `package.json`
 - [ ] Change package `_description_` in `package.json`
 - [ ] Change name `NumerDev` everywhere in `package.json`
+- [ ] Add `NPM_TOKEN` from your NPM account to the secrets
+- [ ] Uncomment a publishing step in the release workflow when you are ready
 
 ## Credits
 - [Anthony Fu](https://github.com/antfu) - for inspiration and a lot of beautifully crafted and helpful libraries
